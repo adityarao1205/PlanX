@@ -1,0 +1,57 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>PlanX</groupId>
+  <artifactId>PlanX</artifactId>
+  <packaging>war</packaging>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>PlanX Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+    <!-- Servlet API (provided by Tomcat) -->
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>javax.servlet-api</artifactId>
+      <version>3.1.0</version>
+      <scope>provided</scope>
+    </dependency>
+
+    <!-- JSTL -->
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>jstl</artifactId>
+      <version>1.2</version>
+    </dependency>
+
+    <!-- Oracle JDBC (if your environment has it in repo) -->
+    <dependency>
+      <groupId>com.oracle.ojdbc</groupId>
+      <artifactId>ojdbc8</artifactId>
+      <version>19.3.0.0</version>
+      <scope>provided</scope>
+    </dependency>
+
+    <!-- Optional: Apache Commons Lang for utilities -->
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-lang3</artifactId>
+      <version>3.12.0</version>
+    </dependency>
+    <dependency>
+    <groupId>javax.ejb</groupId>
+    <artifactId>javax.ejb-api</artifactId>
+    <version>3.2</version>
+    <scope>provided</scope>
+</dependency>
+<!-- Gson for JSON parsing -->
+<dependency>
+  <groupId>com.google.code.gson</groupId>
+  <artifactId>gson</artifactId>
+  <version>2.10.1</version>
+</dependency>
+  </dependencies>
+
+  <build>
+    <finalName>PlanX</finalName>
+  </build>
+</project>
