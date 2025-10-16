@@ -1,0 +1,67 @@
+/* ==============================
+   PLANX DARK THEME (BookMyShow Vibe)
+================================== */
+
+/* Global */
+body {
+  background-color: #121212;
+  color: #f8f9fa;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #000 !important;
+}
+.navbar .nav-link {
+  color: #ccc !important;
+  transition: color 0.3s ease;
+}
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  color: #e50914 !important;
+}
+
+/* Buttons */
+.btn-danger {
+  background-color: #e50914;
+  border: none;
+  transition: 0.3s;
+}
+.btn-danger:hover {
+  background-color: #b0070f;
+}
+
+/* Cards */
+.card {
+  background-color: #1e1e1e;
+  color: #fff;
+  border: none;
+  transition: transform 0.2s ease-in-out;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(255, 0, 0, 0.3);
+}
+
+/* Carousel */
+.banner-img {
+  height: 400px;
+  object-fit: cover;
+  filter: brightness(75%);
+}
+
+/* Footer */
+footer {
+  background: linear-gradient(180deg, #000 0%, #1a1a1a 100%);
+  border-top: 1px solid #222;
+}
+
+/* Event titles */
+h2, h3, h4 {
+  font-weight: 600;
+  color: #fff;
+}
+.text-danger {
+  color: #e50914 !important;
+}
